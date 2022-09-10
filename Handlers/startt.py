@@ -293,12 +293,6 @@ async def random(message: types.message):
     await message.answer(f"Your number first is {firstnum} and second is {secondnum}")
     await message.answer(str(randint(firstnum, secondnum)))
 
-photocsharposnova1 = open("Screenshot_24.png", "rb")
-
-
-async def csharp (message: types.message):
-    await bot.send_photo(chat_id=message.chat.id, photo=photocsharposnova1)
-
 
 async def time1(message: types.message):
     await message.answer("Time")
