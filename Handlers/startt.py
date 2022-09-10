@@ -192,7 +192,7 @@ async def about_kivy(message: types.message):
 
 
 async def source_code(message: types.Message):
-    photo = open("I:/Desktopp/Screenshot_19.png", "rb")
+    photo = open("Screenshot_19.png", "rb")
     await bot.send_photo(chat_id=message.chat.id, photo=photo)
 
 
@@ -210,24 +210,24 @@ async def screenshots_from_d_desktopp(message: types.message):
 
 async def deploy(message: types.message):
     await message.answer("Deploying in progress /......")
-    photo1 = open("I:\Desktopp\Screenshot_1.png", "rb")
-    photo2 = open("I:\Desktopp\Screenshot_2.png", "rb")
-    photo3 = open("I:\Desktopp\Screenshot_3.png", "rb")
-    photo4 = open("I:\Desktopp\Screenshot_4.png", "rb")
-    photo5 = open("I:\Desktopp\Screenshot_5.png", "rb")
-    photo6 = open("I:\Desktopp\Screenshot_6.png", "rb")
-    photo7 = open("I:\Desktopp\Screenshot_7.png", "rb")
-    photo8 = open("I:\Desktopp\Screenshot_8.png", "rb")
-    photo9 = open("I:\Desktopp\Screenshot_9.png", "rb")
-    photo10 = open("I:\Desktopp\Screenshot_10.png", "rb")
-    photo11 = open("I:\Desktopp\Screenshot_11.png", "rb")
-    photo12 = open("I:\Desktopp\Screenshot_12.png", "rb")
-    photo13 = open("I:\Desktopp\Screenshot_13.png", "rb")
-    photo14 = open("I:\Desktopp\Screenshot_14.png", "rb")
-    photo15 = open("I:\Desktopp\Screenshot_15.png", "rb")
-    photo16 = open("I:\Desktopp\Screenshot_16.png", "rb")
-    photo17 = open("I:\Desktopp\Screenshot_17.png", "rb")
-    photo18 = open("I:\Desktopp\Screenshot_18.png", "rb")
+    photo1 = open("Screenshot_1.png", "rb")
+    photo2 = open("Screenshot_2.png", "rb")
+    photo3 = open("Screenshot_3.png", "rb")
+    photo4 = open("Screenshot_4.png", "rb")
+    photo5 = open("Screenshot_5.png", "rb")
+    photo6 = open("Screenshot_6.png", "rb")
+    photo7 = open("Screenshot_7.png", "rb")
+    photo8 = open("Screenshot_8.png", "rb")
+    photo9 = open("Screenshot_9.png", "rb")
+    photo10 = open("Screenshot_10.png", "rb")
+    photo11 = open("Screenshot_11.png", "rb")
+    photo12 = open("Screenshot_12.png", "rb")
+    photo13 = open("Screenshot_13.png", "rb")
+    photo14 = open("Screenshot_14.png", "rb")
+    photo15 = open("Screenshot_15.png", "rb")
+    photo16 = open("Screenshot_16.png", "rb")
+    photo17 = open("Screenshot_17.png", "rb")
+    photo18 = open("Screenshot_18.png", "rb")
 
 
     await bot.send_photo(chat_id=message.chat.id, photo=photo1)
@@ -293,7 +293,7 @@ async def random(message: types.message):
     await message.answer(f"Your number first is {firstnum} and second is {secondnum}")
     await message.answer(str(randint(firstnum, secondnum)))
 
-photocsharposnova1 = open("I:\Desktopp\Screenshot_24.png", "rb")
+photocsharposnova1 = open("Screenshot_24.png", "rb")
 
 
 async def csharp (message: types.message):
