@@ -286,7 +286,7 @@ async def stage1(message: types.message):
 
 
 async def random(message: types.message):
-    await mesage.answer("Type first number")
+    await message.answer("Type first number")
     firstnum = message.text
     await message.answer("Type second number")
     secondnum = message.text
@@ -305,9 +305,8 @@ async def time1(message: types.message):
 async def minute1(message: types.message):
     await message.answer("Minute1 - type text", reply_markup=types.ReplyKeyboardRemove())
     await message.answer(f"1 minute")
-    time.sleep(5)
-    text1m = message.text
-    await message.answer(f"{text1m}")
+    time.sleep(60)
+    await message.answer(f"5Sec")
 
 
 
@@ -346,7 +345,6 @@ def reg_handlers(dp: Dispatcher):
     dp.register_message_handler(deploy, text="Deploy")
     dp.register_message_handler(close_deploy, text="Close")
     dp.register_message_handler(random, text="Random")
-    dp.register_message_handler(csharp, text="c#")
     dp.register_message_handler(key_and_values_and_assembly_and_other_cool_functions)
 
     # dp.register_message_handler(any_text_message)
